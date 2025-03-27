@@ -1,14 +1,18 @@
 {
-    "name": "LittleFs-Omote",
-    "version": "1.0.0",
-    "description": "An fork of LittleFs to help with omote development",
-    
-    "build":{
-      "srcFilter": "-<runners/**>"
-    },
-    "export": {
-      "include": "."
-    },
-    "frameworks": "*",
-    "platforms": "*"
+  "name": "LittleFs-Omote",
+  "version": "1.0.0",
+  "description": "An fork of LittleFs to help with omote development",
+  "build": {
+    "srcFilter": [
+      "-<runners/**>",
+      "-<test/**>",
+      "+<lfs.c>",
+      "+<lfs_utils.c>"
+    ]
+  },
+  "export": {
+    "include": "."
+  },
+  "frameworks": "*",
+  "platforms": "*"
 }
