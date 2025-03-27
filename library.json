@@ -7,7 +7,7 @@
       "-<runners/**>",
       "-<test/**>",
       "+<lfs.c>",
-      "+<lfs_utils.c>"
+      "+<lfs_util.c>"
     ]
   },
   "export": {
